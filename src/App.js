@@ -1,13 +1,13 @@
-import './App.css';
+import React from 'react';
+import Dialog from "./components/Dialog"
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-		  <h1>Hello World</h1>
-      </header>
+  	return (
+    <div>
+		<Dialog />
     </div>
-  );
+  	);
 }
 
 export default App;
